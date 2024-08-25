@@ -4,5 +4,5 @@ let line = document.getElementById("line");
 
 setInterval(() => {
 	angle += 2;
-	line.style.transform = "translate(-50%, -50%) rotate(" + angle + "deg)";
-}, 20) // execute callback func on each 20 milliseconds
+	line.style.transform = "translate(-50%, -50%) rotate(" + angle + "deg)"
+}, 20)
